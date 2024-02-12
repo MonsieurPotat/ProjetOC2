@@ -120,6 +120,19 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+/* Header */
+.header-container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+}
+.logo {
+    width:61.09px;
+    height:19px;
+}
 
 
 
