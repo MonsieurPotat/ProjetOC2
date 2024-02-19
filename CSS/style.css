@@ -129,13 +129,60 @@ a {
 nav {
     display: flex;
 }
-.logo {
-    width:61.09px;
-    height:19px;
+nav a {
+    margin: 0 15px;
+    border-top: 5px solid transparent;
+}
+nav a:hover {
+    color:#0065FC;
+    border-top-color:#0065FC;
 }
 
+.logo {
+    width:61px;
+}
 
+/*Bloc Trouver hébergement */
+.fa-solid.fa-location-dot {
+background-color:#F2F2F2; 
+padding:15px 16px 15px 16px;
+border-radius:15px 0px 0px 15px;
+color:#000000;
+ }
 
+.recherchform {
+border:1px solid #F2F2F2;
+padding:15px 16px 15px 16px;
+
+}
+
+.recherchbutton {
+    padding: 15px 16px 15px 16px;
+    color:#F2F2F2;
+    border:none;
+    border-radius: 0px 15px 15px 0px;
+    background-color:#0065FC;
+}
+
+/*Bloc filtre */
+.Filtre {
+    display:flex;
+    list-style-type:none;
+    justify-content: space-around;
+
+}
+.buttonfiltre {
+    display:flex;
+    align-items:center;
+
+}
+
+/*Bloc 500log*/
+
+.infolog {
+ display:flex;  
+ align-items: center;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
