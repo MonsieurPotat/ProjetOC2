@@ -27,8 +27,8 @@
 
             <div class ="Trouvez-votre-hebergement"><!-- DEBUT BLOC TROUVER HEBERGEMENT-->
                 <section>
-                    <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
-                    <h5>En plein centre-ville ou en pleine nature</h5>
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p class="adefinir">En plein centre-ville ou en pleine nature<p>
                     <form action="/votre-page-de-traitement" method="GET"><!-- DEBUT FORMULAIRE RECHERCHE-->
                     <i class="fa-solid fa-location-dot"></i>
                     <input type="text" id="recherche" name="recherche" placeholder="Entrez votre recherche..." required class="recherchform">
@@ -38,7 +38,7 @@
 
                 <section class="FiltreAll"> <!--DEBUT BLOC FILTRES-->
                 <ul class="Filtre">
-                         <p>Filtres</p>
+                        <p class="Mfiltre">Filtres</p>
                     <li class="buttonfiltre">
                         <i class="fa-solid fa-money-bill-wave"></i>
                         <p class="PhFil">Economique</p>
@@ -59,12 +59,10 @@
                 </section><!--FIN BLOC FILTRES--> 
 
 
-                <ul class="infolog"
-                    <li class="buttonfiltre"> 
+                <div class="infolog"><!--Penser à changer ca pour ne plus avoir de liste, pas nécessaire-->
                         <i class="fa-solid fa-info"></i>
                         <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                    </li>
-                </ul>
+                </div>
                 </section><!-- FIN BLOC 500 logements dispos-->
             </div>
 
@@ -72,6 +70,26 @@
 
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
+                    <div class="hebergements-title">
+                        <h2 class="section-title">Hébergements à Marseille</h2>
+                    </div>
+                    <article class="card">
+                        <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                                <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                            </div>
+                            <div class="card-rating">
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                <span class="sr-only">Note de 4 sur 5</span>
+                            </div>
+                        </div>
+                    </article>
 
                 </section>
                 
@@ -142,7 +160,25 @@
                 </section>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footerlien">
+            <h2>A propos</h2>
+                <a href="lien">Fonctionnement du site</a>
+                <a href="lien">Conditions générales</a>
+                <a href="lien">Données et confidentialités</a>
+            </div>
+            <div class="footerlien">
+             <h2>Nos hébergements</h2>
+                <a href="lien">Chartes qualité</a>
+                <a href="lien">Proposer votre hôtel</a>
+            </div>
+            <div class="footerlien">
+            <h2>Assistance</h2>
+                <a href="lien">Centre d'aide</a>
+                <a href="lien">Nous contacter</a>
+            </div>
+           
+        </footer>
     </div>
 </body>
 
