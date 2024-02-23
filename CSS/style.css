@@ -144,15 +144,15 @@ nav a:hover {
 
 /*Bloc Trouver hébergement */
 .fa-solid.fa-location-dot {
-background-color:#F2F2F2; 
-padding:15px 16px 15px 16px;
-border-radius:15px 0px 0px 15px;
-color:#000000;
+    background-color:#F2F2F2; 
+    padding:15px 16px 15px 16px;
+    border-radius:15px 0px 0px 15px;
+    color:#000000;
  }
 
 .recherchform {
-border:1px solid #F2F2F2;
-padding:15px 16px 15px 16px;
+    border:1px solid #F2F2F2;
+    padding:15px 16px 15px 16px;
 
 }
 
@@ -168,21 +168,94 @@ padding:15px 16px 15px 16px;
 .Filtre {
     display:flex;
     list-style-type:none;
-    justify-content: space-around;
+}
+.Mfiltre {
+    margin-right:30px;
+}
 
+.PhFil {
+margin-left: 5px;
 }
 .buttonfiltre {
     display:flex;
     align-items:center;
-
+    margin-right:30px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    padding:4px 19px 4px 19px;
 }
 
+.buttonfiltre:hover {
+    background-color: #DEEBFF;
+}
 /*Bloc 500log*/
 
 .infolog {
- display:flex;  
- align-items: center;
+    display:flex;  
+    align-items: center;
 }
+
+.fa-solid.fa-info {
+    border: 2px solid #D9D9D9;
+    margin-right:2px;
+    border-radius:50%;
+    padding: 5px;
+}
+
+/*Bloc Hébergement*/
+
+/*Bloc Footer*/
+
+footer {
+    margin-top:10px;
+    display:flex;
+    background-color:#F2F2F2;
+    justify-content: space-between;
+}
+
+.footerlien {
+    text-align:center; 
+    flex-direction:column;   
+}
+
+.footerlien a {
+    display:block;
+    margin-bottom:10px;
+    text-decoration: none;
+
+     }
+
+/*Bloc hébergement à marseille*/
+.hebergements-title {
+
+    margin-bottom:10px;
+}
+.hebergements .hebergements-cards .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: calc(33.3333% - 20px);
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.hebergements .card {
+    display: flex;
+    flex-direction: column; 
+}
+
+.hebergements .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:100%;
+}
+
+.hebergements-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
