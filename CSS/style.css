@@ -146,22 +146,27 @@ nav a:hover {
 
 /*Bloc Trouver hébergement */
 .fa-solid.fa-location-dot {
+  color: #000000;
+
+}
+.location-icon {
+  text-align:center;
   background-color: #f2f2f2;
   border-radius: 15px 0px 0px 15px;
-  color: #000000;
-  margin-right: 0px;
-  height:100%;
   width:50px;
+  padding:15px 0;
 }
 .Formbooki {
   height:49px;
+  display:flex;
+  margin-bottom:20px;
+
 }
 
 .recherchform {
   border: 1px solid #f2f2f2;
   padding: 15px 16px 15px 16px;
   font-weight:bold;
-  margin-left:0px;
 }
 
 .recherchbutton {
@@ -173,12 +178,23 @@ nav a:hover {
   margin-left: 0px;
   font-weight:bold;
 }
+.fa-solid.fa-magnifying-glass {
+display:none;
+color: #FFF;
+}
+.rechercher {
+
+}
 
 /*Bloc filtre */
 .Filtre {
   list-style-type: none;
 }
 .filter1,.filter2 {
+  display:inline-block;
+}
+
+.filter-container {
   display:inline-block;
 }
 
@@ -199,6 +215,7 @@ nav a:hover {
   border-radius: 30px;
   padding: 4px 5px 4px 5px;
   font-weight:bold;
+  width: 125px;
 }
 
 .buttonfiltre:hover {
@@ -231,9 +248,11 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: calc(33.3333% - 20px);
   margin-right: 10px;
   margin-bottom: 10px;
+}
+.hebergements-cards a {
+  width: calc(33.3333% - 20px);
 }
 
 .hebergements .card {
@@ -294,6 +313,7 @@ font-weight:bold;
 .activites-cards .card {
   margin-bottom: 5px;
   box-sizing: border-box;
+  padding:0px 0px 5px 0px;
 }
 
 .activites-marseilles .card img {
@@ -380,6 +400,27 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+  .rechercher {
+    display:none;
+  }
+  .fa-solid.fa-magnifying-glass {
+    display:inline;
+  }
+  .logo {
+    margin-left: 15px;
+    margin-top : 10px;
+  }
+  .Trouvez-votre-hebergement {
+    margin-left: 15px;
+  }
+  .main-container {
+    padding: 0;
+  }
+
+  .filter1,.filter2 {
+    display:block;
+    text-align:center;
+  }
 
   .hebergements-cards {
     display: flex;
@@ -388,7 +429,7 @@ footer {
     gap: 20px;
   }
 
-  .hebergements .hebergements-cards .card {
+  .hebergements-cards a{
     width: calc(100% - 10px);
   }
   .populaires-cards {
@@ -424,10 +465,12 @@ footer {
     margin-top: 0; 
   }
 
-  .hebergements {
+  .hebergements-and-populaires .hebergements{
     order: 1;
     width: 100%;
+    background-color: #ffff;
   }
+
 
   footer {
     flex-direction:column;
