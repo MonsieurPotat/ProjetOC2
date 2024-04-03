@@ -160,7 +160,6 @@ nav a:hover {
   height:49px;
   display:flex;
   margin-bottom:20px;
-
 }
 
 .recherchform {
@@ -184,9 +183,6 @@ color: #FFF;
 }
 
 /*Bloc filtre */
-.Filtre {
-  list-style-type: none;
-}
 .filter1,.filter2 {
   display:inline-block;
 }
@@ -204,16 +200,16 @@ color: #FFF;
 .PhFil {
   margin: 0px 0px 0px 5px;
 }
+
 .buttonfiltre {
   display: flex;
   align-items: center;
   margin-right: 30px;
   border: 2px solid #d9d9d9;
   border-radius: 30px;
-  padding: 10px;
+  padding: 15px;
   font-weight:bold;
-  width: 125px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .buttonfiltre:hover {
@@ -404,20 +400,46 @@ footer {
   .fa-solid.fa-magnifying-glass {
     display:inline;
   }
+
+  .recherchform {
+    width:100%;
+    border:none;
+  }
+  .Formbooki {
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .recherchbutton {
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #d9d9d9;
+  }
   .logo {
     margin-left: 15px;
     margin-top : 10px;
   }
   .Trouvez-votre-hebergement {
     margin-left: 15px;
+    margin-right:15px;
   }
   .main-container {
     padding: 0;
   }
-
+  .buttonfiltre {
+    margin-right:0;
+  }
   .filter1,.filter2 {
     display:block;
     text-align:center;
+  }
+  .filter1 .filter-container:nth-child(1){
+    margin-right:5px;
+  }
+  .filter2 .filter-container:nth-child(1){
+    margin-right:5px;
+  }
+  .filter-container {
+    width:45%;
   }
   .hebergements-and-populaires section {
     border-radius: 0px;
