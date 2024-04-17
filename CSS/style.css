@@ -185,7 +185,7 @@ color: #FFF;
 /*Bloc filtre */
 .filter1,.filter2 {
   display:inline-block;
-}
+} 
 
 .filter-container {
   display:inline-block;
@@ -394,6 +394,7 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+
   .rechercher {
     display:none;
   }
@@ -414,10 +415,38 @@ footer {
     border-radius: 15px;
     box-shadow: 0px 4px 4px 0px #d9d9d9;
   }
-  .logo {
-    margin-left: 15px;
-    margin-top : 10px;
+  .header-container {
+    display:block;
   }
+  header {
+    text-align:center;
+  }
+  .logo {
+    display:inline-block;
+    text-align:center;
+    width: 61px;
+    padding: 30px;
+
+  }
+
+  nav {
+    justify-content:space-around;
+  }
+
+  nav a {
+    border-top:none;
+    border-bottom: 5px solid transparent;
+    padding-bottom: 10px;
+    width:50%;
+    display: inline-block;
+    box-sizing: border-box;
+    
+  }
+
+  nav a:hover {
+    border-bottom-color: #0065fc;
+  }
+
   .Trouvez-votre-hebergement {
     margin-left: 15px;
     margin-right:15px;
