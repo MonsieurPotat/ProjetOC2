@@ -132,12 +132,13 @@ nav {
 }
 nav a {
   margin: 0 15px;
-  border-top: 5px solid transparent;
+  border-top: 2px solid transparent;
   padding-top: 10px;
 }
 nav a:hover {
   color: #0065fc;
   border-top-color: #0065fc;
+
 }
 
 .logo {
@@ -394,7 +395,7 @@ footer {
   }
   .activites-marseilles .card img { 
   height: 200px;
-  
+
   }
 }
 
