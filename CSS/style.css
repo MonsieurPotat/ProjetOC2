@@ -204,7 +204,7 @@ color: #FFF;
 .buttonfiltre {
   display: flex;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 15px;
   border: 2px solid #d9d9d9;
   border-radius: 30px;
   padding: 15px;
@@ -246,7 +246,9 @@ color: #FFF;
   margin-bottom: 10px;
 }
 .hebergements-cards a {
-  width: calc(33.3333% - 20px);
+  width: calc(33.3333% - 15px);
+  padding-bottom: 15px;
+
 }
 
 .hebergements .card {
@@ -301,7 +303,7 @@ font-weight:bold;
 .activites-cards {
   display: flex;
   flex-wrap: nowrap;
-  gap: 15px;
+  gap: 30px;
 }
 
 .activites-cards .card {
@@ -356,6 +358,10 @@ footer {
     width:100%;
   }
 
+  .activites-card {
+    height:270px;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -388,6 +394,7 @@ footer {
   }
   .activites-marseilles .card img { 
   height: 200px;
+  
   }
 }
 
